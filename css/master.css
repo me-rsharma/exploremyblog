@@ -1,0 +1,174 @@
+@font-face{
+  src:url(../fonts/CodeNewRoman.otf) format("opentype");
+  /* src:url(../fonts/JetBrainsMono-Regular.ttf); */
+  font-family: 'CNR Regular';
+}
+
+@font-face{
+  src:url(../fonts/CodeNewRomanb.otf) format("opentype");
+  /* src:url(../fonts/JetBrainsMono-Regular.ttf); */
+  font-family: 'CNR Bold';
+}
+
+@font-face{
+  src:url(../fonts/CourierPrimeCode.ttf) format("truetype");
+  /* src:url(../fonts/JetBrainsMono-Regular.ttf); */
+  font-family: 'CPC Regular';
+}
+
+@font-face{
+  src:url(../fonts/Ayuthaya.ttf) format("truetype");
+  /* src:url(../fonts/JetBrainsMono-Regular.ttf); */
+  font-family: 'Ayuthaya';
+}
+
+
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+body {
+  font-family: 'Ayuthaya';
+  background-color: #292F36;
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+
+.seperate{
+  border-bottom: 1px dashed #D5DD5D;
+  font-family: 'Ayuthaya';
+}
+
+
+
+/* # head-section  */
+
+#logo-img span {
+  font-size: 3.5rem;
+  color: #D5DD5D;
+  font-family: "Ayuthaya";
+}
+
+h2 {
+  color: #D5DD5D;
+  margin-bottom: 2rem;
+}
+
+#head-code{
+  font-size: 2.5rem;
+  color: #861657;
+  font-weight: bolder;
+}
+
+#logo-text{
+  font-size: 1.5rem;
+}
+
+
+h4 {
+  color: #02C39A;
+
+}
+
+p{
+  color: #F0E7D8;
+  padding: 2px;
+}
+
+.topic{
+  border-bottom: solid 2px #D5DD5D;
+  font-style: italic;
+  color: #157A6E;
+}
+
+.topic-details h5{
+  color: grey;
+  font-size: 1.2rem;
+  color: #F9AB55;
+  margin-top: 5px;
+
+}
+
+.head-list ul{
+  display: inline-block;
+  list-style: none;
+}
+
+
+.head-list li{
+  display: inline-block;
+  list-style: none;
+}
+
+code {
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 5px;
+
+}
+
+a {
+  color: #C6AFFF;
+}
+
+a:hover {
+  color: #C6AFFF;
+}
+
+.content-section ul{
+  color: grey;
+}
+
+.important-text {
+  background-color: #fff;
+  border-radius: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.sub-head span {
+  font-size: 1rem;
+  color: #F2E5C9;
+  border-bottom: solid 1px #F2E5C9;
+}
+
+blockquote{
+  color: grey;
+
+}
+
+img {
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 2.5rem;
+  padding: 2px;
+}
+
+blockquote p{
+  color: rgb(248, 239, 239);
+  font-size: 0.8rem;
+  font-style: italic;
+  
+}
+
+.footer-logo #logo-img span{
+  font-size: 2.5rem;
+}
+
+#footer ul{
+  border-radius: 4px;
+  margin-top: 10px;
+  color: #D5DD5D;
+  list-style: none;
+  display: inline-block;
+}
+
+#footer li{
+  margin-top: 10px;
+  list-style: none;
+  display: inline-block;
+}

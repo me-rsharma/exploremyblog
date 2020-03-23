@@ -1,0 +1,14 @@
+https://stackoverflow.com/questions/22844806/how-to-change-my-git-username-in-terminal
+
+160C28
+CA2E55
+292F36
+F0E7D8
+157A6E
+8BB174
+028090
+  background-color: #191923;
+
+https://coolors.co/157a6e-8bb174-f0e7d8-292f36-ca2e55
+https://coolors.co/147587-028090-00a896-02c39a-f2e5c9
+https://coolors.co/fbfef9-191923-f9ab55-ff9f1c-0e79b2

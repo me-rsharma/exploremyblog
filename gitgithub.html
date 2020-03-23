@@ -1,0 +1,231 @@
+<!DOCTYPE html5>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="css/master.css" />
+  <title>let's git</title>
+</head>
+
+<body>
+  <header class='py-5'>
+    <div class="container">
+      <ul class="head-list">
+        <li id='logo-img'><span>&lt;git</span><span>/</span><span id="head-code" style="color: #861657">code&gt;</span>
+        </li>
+        <li id='logo-text' style="color:#F9AB55;"><span>./explore git & github ....</span></li>
+      </ul>
+    </div>
+    <p class="seperate"></p>
+
+  </header>
+
+  <section>
+    <div class="container banner-section">
+      <h2>Let's explore <span class="topic">Git</span> & <span class="topic">GitHub</span> 🚀</h2>
+      <!-- <img class="img-fluid" src="./img/git-github.png" alt="github image"> -->
+    </div>
+    <div class="container content-section">
+      <h4>Git Setup & GitHub Account Creation</h4>
+      <p>
+        <blockquote>By Rajeshwar Sharma
+        </blockquote>
+      </p>
+      <p class="font-weight-lighter">Here, we will be exploring how to set up Git & GitHub on our system. But the most
+        essential thing is before getting started with GitHub, we have to make sure we have Git installed on our system
+        and also the PATH is set under environmental variable.</p>
+      <div class="topic-details">
+        <h5>1. Setting up <span class="topic"> git </span></h5>
+        <p>As per Wikipedia definition, Git is a distributed version-control system for tracking changes in source code
+          during software development. It is designed for coordinating work among programmers, but it can be used to
+          track changes in any set of files.</p>
+        <blockquote>
+          <p>👉 NOTE: In case you want to learn more about Git, please refer - <a
+              href="https://git-scm.com/book/en/v2">https://git-scm.com/book/en/v2</a>
+          </p>
+
+          <p>So let's get started and dive into the setting up of git on our system and then will jump to GitHub</p>
+        </blockquote>
+        <p>Firstly, we have to check whether we have git installed on your machine or not using:</p>
+        <code>git --version</code>
+        <p>Once we execute this and if we have already git installed and PATH is set, then we will get below output</p>
+        <code>git version 2.23.0</code>
+        <p>And, in case we received - <em class="text-info">git has not recognized or git not found</em> or something
+          else then we need to install git and set the environmental variable PATH </p>
+        <p>So, let's consider we don't have Git installed on our systems and we have to do the set up from scratch.
+        </p>
+        <p>Follow the below steps to set up git on your system:</p>
+        <ul>
+          <li>Go to <a href="https://git-scm.com/">https://git-scm.com/</a></li>
+          <li>Download respective executable/binary file based on system. By default, you will get executable/binary
+            file based on your system. Just click on - <span class="important-text">Download &lt;version no.&gt; for
+              &lt;system&gt;</span></li>
+          <li>Run the downloaded executable file and follow the instructions.</li>
+          <blockquote>
+            <p>I know you guys can do it on your own 😎</p>
+          </blockquote>
+          <li>Once the installation is done successfully, let's set up Git environmental variable path</li>
+        </ul>
+
+        <h5>2. Setting up git <span class="topic">environmental variable</span></h5>
+        <p>After successful installation of Git, we must set the path of git <em>bin</em> and <em>cmd</em> folder as a
+          part of environmental variable to avoid the unexpected error or we can say to work with git or github through
+          cmd/terminal</p>
+        <p>So, let's see how to set up enviromental variable path for git.</p>
+        <p class="sub-head"><span>For window users</span></p>
+        <ul>
+          <li>Go to <span class="important-text">"My Computers/Computers"</span></li>
+          <li>Right-click & select <span class="important-text">"Properties"</span></li>
+          <li>In the left panel, click on <span class="important-text">"Advanced System Properties"</span></li>
+          <li>Click on <span class="important-text">"Environmental Variables"</span></li>
+          <li>Under the System Variables section, select <span class="important-text">"Path"</span> and click <span
+              class="important-text">"Edit"</span></li>
+          <li>Click on <span class="important-text">"Add"</span> button and add the path of git folders git.exe & cmd
+            file as follows</li>
+          <blockquote>
+            <p>C:\Program Files\Git\bin\git.exe;</p>
+            <p>C:\Program Files\Git\cmd;</p>
+          </blockquote>
+        </ul>
+
+        <blockquote>
+          <p>👉 NOTE: In case you need more details, please visit - <a
+              href="https://stackoverflow.com/questions/26620312/installing-git-in-path-with-github-client-for-windows">https://stackoverflow.com/questions/26620312/installing-git-in-path-with-github-client-for-windows</a>
+          </p>
+        </blockquote>
+
+        <p class="sub-head"><span>For Mac & Linux users</span></p>
+        <p class="text-muted">In case of Mac & Linux system we don't need to explicitly set the PATH for Git since its
+          already get added at the time of installation.</p>
+
+        <h5>3. Signing up with <span class="topic"> github </span></h5>
+        <p>As we already have done with the git setup, we are ready to track our history and version control. But what
+          if I have to share my code across the team, across different platforms, across the world, and on the internet.
+          So, to do so we need more setup tools to set up and that is - GitHub.</p>
+        <p>In simple terms, GitHub is a collaboration tool that helps to bring the team closer. It helps the team to
+          share code across and also provides a graphical user interface for the tracked history and commits. These are
+          just a few of them but yes there are a lot more features GitHub provides such as branch creation, pull request
+          creation and merging, repository creation, file creation, cloning, forking, and many more.</p>
+        <p>So, let get started with GitHub set up on your machine using the following steps:</p>
+
+        <ul>
+          <li>Go to <a href="https://github.com/">https://github.com/</a></li>
+          <li>Fill all the necessary details on signup form needed for registration</li>
+          <li>Click on <span class="important-text">Sign up for GitHub</span></li>
+          <li>Once we clicked on the signup button, we get a verification mail to our registered email id. Just open
+            your mail and verify your email id by clicking the link send by github</li>
+          <blockquote>
+            <p>I know you guys can do it on your own 😎</p>
+          </blockquote>
+          <li>After clicking on verification link, you will get directed to GitHub site where you have to answers few
+            question and then you are good to go.</li>
+        </ul>
+
+        <h5>4. Creating our first <span class="topic"> git repository </span> <i class="em em-file_folder"
+            aria-role="presentation" aria-label="FILE FOLDER"></i></h5>
+        <p>It's time to create our first repository on GitHub</p>
+        <ul>
+          <li>Once you logged in to the GitHub, you will find a green button with name <span
+              class="important-text">New</span></li>
+          <img class="img-fluid" src="./img/createrepo.png" alt="new button">
+          <li>After clicking on <span class="important-text">New</span> button, we will get navigated to GitHub
+            repository creation page.</li>
+          <li>Enter the name of the repository and keep other options default.</li>
+          <li>Click on <span class="important-text">Create Repository</span> button</li>
+          <li>YEEEE !!! 🤗, we have created our very first github repository</li>
+        </ul>
+
+
+        <h5>5. <span class="topic">Cloning</span> our first git repository <i class="em em-file_folder"
+            aria-role="presentation" aria-label="FILE FOLDER"></i> to our local system(computer)</h5>
+        <p>It's time to clone our first repository that we have just created on GitHub</p>
+        <ul>
+          <li>Once you logged in to the GitHub, you will find your repository <span
+              class="important-text">&lt;repo-name&gt;</span>
+          </li>
+          <img class="img-fluid" src="./img/repo.png" alt="new button">
+          <li>After clicking on <span class="important-text">&lt;repo-name&gt;</span>, we will get navigated to GitHub
+            repository content page.</li>
+          <li>Click on <span class="important-text">Clone & Download</span> button</li>
+          <li>Copy the link of your github repository</li>
+          <li>Open your CMD/Terminal on your local system and navigate to folder where you want to clone your github
+            repository</li>
+          <li>Paste the above copies command with <code>git clone </code> as perfix</li>
+          <p>In my case - <code>git clone https://github.com/letscodedjango/lets-cucumber.git</code></p>
+          <li>YEEEE !!! 🤗, we have cloned our very first github repository on our local system</li>
+        </ul>
+
+        <h5>6. <span class="topic">Adding</span> our first code/file to our local git repository <i
+            class="em em-file_folder" aria-role="presentation" aria-label="FILE FOLDER"></i> to our local
+          system(computer)</h5>
+        <p>It's time to add our first code/file to local git repository that we have just cloned</p>
+        <p>There are multiple ways of adding files to local git repository such as through System explorer or using
+          CMD/Terminal</p>
+        <p class="sub-head"><span>Using System Explorer</span></p>
+        <ul>
+          <li>Navigate to local git folder and add file manually</li>
+        </ul>
+
+        <p class="sub-head"><span>Using CMD/Terminal</span></p>
+        <ul>
+          <li>Open CMD/Terminal and navigate to local git folder using below command</li>
+          <code>cd &lt;path_to_git_repository&gt;</code>
+          <li>Add new file using - <code>touch filename.py</code></li>
+        </ul>
+
+        <p>Once the new file gets added to the local git repository, let's push the same to our remote git repository on
+          GitHub
+          using the following steps:</p>
+        <ul>
+          <li>Firstly check the status of out local git repository using - <code>git status</code></li>
+          <blockquote>
+            <p>It will show all the latest changes we have made to our local git repository</p>
+          </blockquote>
+          <li>If we have any recent changes, we will add the changes to stage area using - <code>git add . </code> or
+            <code>git add filename.py</code></li>
+          <blockquote>
+            <p>Above command will add all the newly added and modified file to staging area of Git. Here, dot(.) means
+              add all the file & to add specific file use the name of the file</p>
+          </blockquote>
+          <li>After adding file to stage area, we need to commit the changes using -
+            <code>git commit -m "Any message you can give here"</code></li>
+          <blockquote>
+            <p>Here, 'm' is represeting the commit message. Always give meaning message that is relevant to changes</p>
+          </blockquote>
+          <li>Finally, push the newly added & modified file to GitHub remote repository using - <code>git push</code>
+          </li>
+          <li>Now, you are good to find the recent changes done in local git repo on your GitHub</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center" id="footer">
+          <ul>
+            <li class="footer-logo">
+              <p id='logo-img'><span>&lt;git</span><span>/</span><span id="head-code"
+                  style="color: #861657">code&gt;</span>
+              </p>
+            </li>
+            <li>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | <a href="https://www.explorechoice.org" target="_blank">explorechoice.org</a>
+            </li>
+          </ul>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
