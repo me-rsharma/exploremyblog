@@ -958,6 +958,10 @@ RESPONSIVE
 }
 
 
+.nav-logo a#logo-img span{
+    font-size: 2.5rem;
+}
+
 /*----------------------------*\
 	archive
 \*----------------------------*/
