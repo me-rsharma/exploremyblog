@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Python Variables & Functions</title>
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <!-- Nav -->
+        <div id="nav">
+            <!-- Main Nav -->
+            <div id="nav-fixed">
+                <div class="container">
+                    <!-- logo -->
+                    <div class="nav-logo">
+                        <a href="index.html" class="logo" id='logo-img'><span>./explorechoice</span><span id="head-code"
+                                style="color: #861657">.org</span>
+                        </a>
+                        <!-- <a href="index.html" class="logo"><img src="./img/logo.png" alt=""></a> -->
+                    </div>
+                    <!-- /logo -->
+
+                    <!-- nav -->
+                    <ul class="nav-menu nav navbar-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="updates.html">Updates</a></li>
+
+                    </ul>
+                    <!-- /nav -->
+
+                    <!-- search & aside toggle -->
+                    <div class="nav-btns">
+                        <button class="aside-btn"><i class="fa fa-bars"></i></button>
+                        <!-- <button class="search-btn"><i class="fa fa-search"></i></button>
+								<div class="search-form">
+									<input class="search-input" type="text" name="search" placeholder="Enter Your Search ...">
+									<button class="search-close"><i class="fa fa-times"></i></button>
+								</div> -->
+                    </div>
+                    <!-- /search & aside toggle -->
+                </div>
+            </div>
+            <!-- /Main Nav -->
+
+            <!-- Aside Nav -->
+            <div id="nav-aside">
+                <!-- nav -->
+                <div class="section-row">
+                    <ul class="nav-aside-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="updates.html">Updates</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- widget posts -->
+                <div class="section-row">
+                    <h3>Recent Posts</h3>
+                    <div class="post post-widget">
+                        <a class="post-img" href="gitgithub.html"><img src="./img/widget-2.jpg" alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="gitgithub.html">How to set up Git & Git on your system and
+                                    work with the
+                                    same?</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="post post-widget">
+                        <a class="post-img" href="py-setup.html"><img src="./img/widget-3.jpg" alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="py-setup.html">Let's get started with setting up Python 3.x
+                                    on our
+                                    system</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="post post-widget">
+                        <a class="post-img" href="se-setup.html"><img src="./img/widget-4.jpg" alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="se-setup.html">Let's get started writing our very first
+                                    automation script
+                                    using Python & Selenium</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /widget posts -->
+                <!-- social links -->
+                <div class="section-row">
+                    <h3>Follow us</h3>
+                    <ul class="nav-aside-social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /social links -->
+                <!-- /nav -->
+
+                <!-- aside nav close -->
+                <button class="nav-aside-close"><i class="fa fa-times"></i></button>
+                <!-- /aside nav close -->
+            </div>
+            <!-- Aside Nav -->
+        </div>
+        <!-- /Nav -->
+
+        <!-- Page Header -->
+        <div id="post-header" class="page-header">
+            <!-- <div class="background-img" style="background-image: url('./img/post-page.jpg');"></div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="post-meta">
+                            <a class="post-category cat-2" href="category.html">Python</a>
+                            <span class="post-date">March 23, 2019</span>
+                        </div>
+                        <h1>Let's explore Selenium wait using Python code
+                        </h1>
+                        <p class="author">By Rajeshwar Sharma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Page Header -->
+    </header>
+    <!-- /Header -->
+
+    <!-- section -->
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- Post content -->
+                <div class="col-md-8">
+                    <div class="section-row sticky-container">
+                        <div class="main-post">
+                            <p>As we all know, change is the only constant and the same goes with our very close
+                                companion ie. Internet connection.
+                                Sometimes, it happens we have fluctuating internet speed especially when people working
+                                from home 😀</p>
+                            <p>In such a situation, the loading of web elements on webpages slows down and selenium
+                                sometime faces issues while
+                                interacting with them and return different sorts of exceptions such as
+                                <code>element not visible</code>
+                                <code>element is not enabled</code>
+                                <code>element is not present</code> and so on.
+                            </p>
+                            <p>So to handle this scenario, we generally make selenium to wait until the web elements get
+                                loaded on the webpages
+                                completely. There are different ways we can make out the selenium code to wait.</p>
+                            <figure class="figure-img">
+                                <img class="img-responsive" src="./img/post-4.jpg" alt="">
+                                <!-- <figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption> -->
+                            </figure>
+
+                            <h3 class="text-info">Using Python sleep() function</h3>
+                            <p>Using <code>sleep()</code> function from <code>time</code> module of Python helps
+                                selenium to wait for specific interval of time</p>
+
+                            <p><code>sleep()</code> is a parameterized function that expect wait time arguments as int
+                            </p>
+
+                            <p>The <code>int</code> argument passed to the <code>sleep(5)</code> function will be
+                                considered as SECONDS and our code will pause for that specific time</p>
+
+                            <p>Usage of <code>sleep()</code> function in our python code</p>
+
+                            <script
+                                src="https://gist.github.com/me-rsharma/245ed9fd52d3343ef10c6c298eaae6c1.js"></script>
+
+                            <blockquote class="text-muted">
+                                👉NOTE: Always make sure to import sleep function from time module before using as
+                                <code>from time import sleep</code>
+                            </blockquote>
+
+                            <p>Though sleep() does pretty well job, it's not recommended by the selenium community to
+                                use sleep() in our automation
+                                script. 🤔</p>
+                            <p>Don't worry, it's not because of hatred or jealously of selenium towards python 😀 but
+                                due to strict behavior of
+                                sleep(). And somewhere it is right because people don't like strictness in their life 😁
+                            </p>
+
+                            <h3 class="text-info">A reason not to use sleep()</h3>
+                            <p>The strict behavior of Python <code>sleep()</code> is not much appreciated by selenium
+                                web driver because when we specify <code>sleep(5)</code> to
+                                make selenium wait till the element get loaded completely on the webpages, the function
+                                will forcibly pause the code
+                                execution for 5 seconds and do not allow selenium to move ahead with execution even
+                                though web elements get loaded
+                                before 5 seconds.
+                            </p>
+                            <p>And I think this behavior of sleep() makes selenium angry and selenium develops its own
+                                function and classes for the
+                                wait</p>
+                            <p>Yes, you heard me right we have selenium waits that are more efficient and reliable to
+                                use than sleep().</p>
+                            <p>So let's dive into the selenium waits and see its importance and usage.</p>
+
+                            <h3 class="text-info">Types of Selenium Wait</h3>
+                            <p>Selenium wait majorly classified into 2 types:</p>
+
+                            <blockquote>
+                                <p>Implicit Wait</p>
+                                <p>Explicit Wait</p>
+                            </blockquote>
+
+
+                            <h3 class="text-info">Implicit wait & its usage</h3>
+                            <p>In Selenium, implicit wait helps to wait for a certain period of time that is given to
+                                the implicit wait method before
+                                throwing an exception.
+                                If we don't specify any time duration, its default setting is 0.
+                                Once we set implicit wait in our code, the implicit wait will be applicable throughout
+                                the lifetime of the drive or in
+                                simple terms for the entire duration for which the browser is open</p>
+                            <p>To set implicit wait in Selenium using Python, we need to use
+                                <code>implicitly_wait(5)</code> </p>
+                            <p>
+                                <ul style="list-style-type: decimal; color:aliceblue">
+                                    <li style="list-style-type: none;"> Usage of selenium implicit wait
+                                        <script
+                                            src="https://gist.github.com/me-rsharma/c7b2dc3ac345d7345f42bef8ac529e90.js"></script>
+                                    </li>
+                                </ul>
+
+                            </p>
+
+                            <h3 class="text-info">Explicit wait & its usage</h3>
+                            <p>In Selenium, explicit wait behaves bit differently than implicit wait. Explicit wait
+                                helps to wait for a certain period of time that is given to the explicit wait method
+                                based on certain condition before throwing an exception. Hence, we must always use <code>expected_conditions</code> module
+                                along with <code>WebDriverWait</code> class</p>
+                                <p>Also, in explicit wait we can set the <code>polling_frequency</code> and <code>ignored_exceptions</code>
+                                which defines the frequency with which WebDriver will check if the condition appears before throwing the
+                                exception and helps to ignore set of <code>exceptions</code> when element not get accessed within defined time respectively.</p>
+                                <p>It's a good idea to set explicit wait where we have cases, elements take more time to load. If one sets an implicit
+                                wait command, then the browser will wait for the same time frame before loading every web element. This causes an
+                                unnecessary delay in executing the test script.</p>
+                                <p>Once we set explicit wait in our code, the explicit wait will be applicable till the
+                                time condition is met or the time duration for which we have applied explicit wait</p>
+                                <blockquote>
+                                    <p>If we don't specify any time duration, its default setting is 0. the default polling_frequency is 0.5 and the default
+                                        ignored_exceptions is None </p>
+                                </blockquote>
+                            <p>To set explicit wait in Selenium using Python, we need to use
+                                <code>WebDriverWait</code> class</p>
+                            <p>
+                                <ul style="list-style-type: decimal; color:aliceblue">
+                                    <li> Usage of selenium explicit wait without polling frequency
+                                        <script src="https://gist.github.com/me-rsharma/2b0151aeabf3f8390f73657e6dc454ab.js"></script>
+                                    </li>
+                                    <li> Usage of selenium explicit wait with polling_frequency & ignored_exceptions
+                                        <script src="https://gist.github.com/me-rsharma/083d14d93862bd162d140693ffb5367a.js"></script>
+                                    </li>
+                                </ul>
+
+                                <blockquote class="text-muted">
+                                    <p>👉NOTE: To know more about expected_conditions module and its functions & classes:</p>
+                                    <a class="text-warning" href=" https://github.com/SeleniumHQ/selenium/blob/master/py/selenium/webdriver/support/expected_conditions.py">https://github.com/SeleniumHQ/selenium/blob/master/py/selenium/webdriver/support/expected_conditions.py</a>
+                                    <p>👉NOTE: To know more about WebDriverWait class:</p>
+                                    <a class="text-warning" href="https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.wait">https://selenium-python.readthedocs.io/api.html#module-selenium.webdriver.support.wait</a>
+                                </blockquote>
+
+
+                            </p>
+
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /Post content -->
+
+                <!-- aside -->
+                <div class="col-md-4">
+
+                    <!-- post widget -->
+                    <div class="aside-widget">
+                        <div class="section-title">
+                            <h2>Must Read</h2>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="./img/widget-1.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore Python data structures &
+                                        its amazing features.</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="./img/widget-2.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore Selenium wait using Python
+                                        code</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="./img/widget-3.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore mouse & keyboard
+                                        operations using Selenium & Python</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="./img/widget-4.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore handling of multiple
+                                        browser windows & tabs using Selenium & Python</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /post widget -->
+                    <!-- catagories -->
+                    <div class="aside-widget">
+                        <div class="section-title">
+                            <h2>Catagories</h2>
+                        </div>
+                        <div class="category-widget">
+                            <ul>
+                                <li><a href="#" class="cat-1">Python<span>5</span></a></li>
+                                <li><a href="#" class="cat-2">Selenium<span>4</span></a></li>
+                                <li><a href="#" class="cat-4">Selenium/Python<span>6</span></a></li>
+                                <li><a href="#" class="cat-3">Github<span>2</span></a></li>
+                                <li><a href="#" class="cat-3">Java<span>3</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /catagories -->
+                </div>
+                <!-- /aside -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /section -->
+
+
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- container -->
+        <div class="text-center container">
+            <p>YEEEE !!! 🤗, we have successfully explored the Selenium Waits. 🤗</p>
+            <p>Hope you enjoyed and please stay tuned with us for more article like this 🤗</p>
+            <br>
+            <!-- row -->
+            <h3 class="footer-title">Having any query. Please send us..</h3>
+            <div class="footer-newsletter">
+                <form>
+                    <input class="input" type="email" name="newsletter" placeholder="Enter your email">
+                    <button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button>
+                </form>
+            </div>
+            <ul class="footer-social">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+            <br>
+
+            <ul>
+                <li class="footer-logo">
+                    <p id='logo-img'><span>&lt;explore</span><span>/</span><span id="head-code"
+                            style="color: #861657">choice&gt;</span>
+                    </p>
+                </li>
+                <li>Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+                        href="https://www.explorechoice.org" target="_blank">explorechoice.org</a>
+                </li>
+            </ul>
+
+            <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <!-- Copyright ©<script>document.write(new Date().getFullYear());</script>All rights reserved | -->
+                This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+
+
+        </div>
+        <!-- /container -->
+    </footer>
+    <!-- /Footer -->
+
+    <!-- jQuery Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

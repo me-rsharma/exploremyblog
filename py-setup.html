@@ -1,0 +1,165 @@
+<!DOCTYPE html5>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/master.css" />
+    <title>let's git</title>
+</head>
+
+<body>
+    <header class='py-5'>
+        <div class="container">
+            <ul class="head-list">
+                <li id='logo-img'><span>&lt;py</span><span>/</span><span id="head-code"
+                        style="color: #861657">code&gt;</span>
+                </li>
+                <li id='logo-text' style="color:#F9AB55;"><span>./explore python ....</span></li>
+            </ul>
+        </div>
+        <p class="seperate"></p>
+
+    </header>
+
+    <section>
+        <div class="container banner-section">
+            <h2>Let's explore <span class="topic">Python Setup</span> 🚀</h2>
+            <!-- <img class="img-fluid" src="./img/git-github.png" alt="github image"> -->
+        </div>
+        <div class="container content-section">
+            <h4>Python installation & setup on Windows/Mac/Linux</h4>
+            <p>
+                <blockquote>By Rajeshwar Sharma
+                </blockquote>
+            </p>
+            <p class="font-weight-lighter">Here, we will be exploring how to set up Python 3.x on our system. Basically, Python comes with 2 flavors - <code>Python 2</code> and <code>Python 3</code>. But, Python Software Foundation has completely deprecated Python 2 recently in January 2020 and hence we will be setting up Python 3</p>
+            <blockquote>
+                <p>👉 NOTE: In case you want to learn more about Python deprecation, please refer - <a
+                        href="https://www.infoq.com/news/2019/09/python-2-end-of-life-approaching/">https://www.infoq.com/news/2019/09/python-2-end-of-life-approaching/</a>
+                </p>
+            </blockquote>
+            <div class="topic-details">
+                <h5>1. Setting up <span class="topic"> Python 3.x </span></h5>
+                <p>As per Wikipedia definition, Python is an interpreted, high-level, general-purpose programming language. Created by Guido van Rossum and first
+                released in 1991.</p>
+                <p>But, actually speaking its much more than this. Today, Python has gained such popularity among the developers' community, it has become one of the top 3 widely-used
+                programming languages.</p>
+                <blockquote>
+                    <p>👉 NOTE: In case you want to learn more about Python ranking, please refer - <a
+                            href="https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/">https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/</a>
+                    </p>
+
+                    <p>So let's get started and dive into the setting up of Python 3.x on our system</p>
+                </blockquote>
+                <p>Firstly, we have to check whether we have Python installed on your machine or not using:</p>
+                <code>python --version</code>
+                <p>Once we execute this and if we have already python installed and PATH is set, then we will get below
+                    output</p>
+                <code>Python 3.x.x</code>
+                <p>And, in case we received - <em class="text-info">python has not recognized or python not found</em> or
+                    something
+                    else then we need to install Python and set the environmental variable PATH </p>
+                <p>So, let's consider we don't have Python installed on our systems and we have to do the set up from
+                    scratch.
+                </p>
+                <p>Follow the below steps to set up Python on your system:</p>
+                <ul>
+                    <li>Go to <a href="https://www.python.org/downloads/">https://www.python.org/downloads/</a></li>
+                    <li>Download respective executable/binary file based on system. By default, you will get
+                        executable/binary
+                        file based on your system. Just click on - <span class="important-text">Download Python &lt;version
+                            no.&gt;</span></li>
+                    <li>Run the downloaded executable file and follow the instructions.</li>
+                    <blockquote>
+                        <p>I know you guys can do it on your own 😎</p>
+                    </blockquote>
+                    <li>Once the installation is done successfully, let's set up Python environmental variable path</li>
+                </ul>
+
+                <h5>2. Setting up Python <span class="topic">environmental variable</span></h5>
+                <p>After successful installation of Python, we must set the path of Python folder as a
+                    part of environmental variable to avoid the unexpected error or we can say to work with Python through cmd/terminal</p>
+                <p>So, let's see how to set up enviromental variable path for Python.</p>
+                <p class="sub-head"><span>For window users</span></p>
+                <ul>
+                    <li>Go to <span class="important-text">"My Computers/Computers"</span></li>
+                    <li>Right-click & select <span class="important-text">"Properties"</span></li>
+                    <li>In the left panel, click on <span class="important-text">"Advanced System Properties"</span>
+                    </li>
+                    <li>Click on <span class="important-text">"Environmental Variables"</span></li>
+                    <li>Under the System Variables section, select <span class="important-text">"Path"</span> and click
+                        <span class="important-text">"Edit"</span></li>
+                    <li>Click on <span class="important-text">"Add"</span> button and add the path of Python folders as follows</li>
+                    <blockquote>
+                        <p>C:\Program Files\Python38;</p>
+                    </blockquote>
+                </ul>
+
+                <blockquote>
+                    <p>👉 NOTE: In case you need more details, please visit - <a
+                            href="https://docs.python.org/3.8/using/windows.html#excursus-setting-environment-variables">https://docs.python.org/3.8/using/windows.html#excursus-setting-environment-variables</a>
+                    </p>
+                </blockquote>
+
+                <p class="sub-head"><span>For Mac & Linux users</span></p>
+                <p class="text-muted">In case of Mac system we don't need to explicitly set the PATH for Python since Mac already comes with Python installed but mostly those installed Python version are the older version such as Python 2.7</p>
+                <p class="text-muted">So, to installed latest version of Python on Mac & Linux we need to follow the steps above. Here, we will be dicsussing how we need to set up latest installed Python path</p>
+                <ul>
+                    <li>Open terminal and create <span class="important-text">".bash_profile"</span></li>
+                    <li>Open the file using any of the text editor <span class="important-text">"Sublime Text/ Atom/ VS Code"</span></li>
+                    <li>Also, you can use built in text editors such as <span class="important-text">"Vim / nano"</span>
+                    </li>
+                    <blockquote>
+                        <p><code>vim .bash_profile or nano .bash_profile</code></p>
+                    </blockquote>
+                    <li>Add the below lines<span class="important-text">".bash_profile"</span></li>
+                    <code>export PATH="$PATH:/usr/local/bin/python"</code>
+                    <li>After adding, save the file and execute below command</li>
+                    <blockquote>
+                        <p><code>source .bash_profile</code></p>
+                    </blockquote>
+                    <li>Close the terminal and open again and run <code>python --version</code></li>
+                    <li>If things went well then we will get <code>Python 3.x.x</code></li>
+                </ul>
+
+                <h5>3. Accessing <span class="topic"> Python 2 and Python 3</span></h5>
+                <p>In case you have Python 2 and Python 3 both installed on your system, to access Python 3 we can simply open terminal/CMD and run</p>
+                <blockquote>
+                    <p><code>python3</code></p>
+                </blockquote>
+                    <p>YEEEE !!! 🤗, we have cloned our very first github repository on our local system</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center" id="footer">
+        <ul>
+            <li class="footer-logo">
+                <p id='logo-img'><span>&lt;py</span><span>/</span><span id="head-code"
+                        style="color: #861657">code&gt;</span>
+                </p>
+            </li>
+            <li>Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+                    href="https://www.explorechoice.org" target="_blank">explorechoice.org</a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
