@@ -962,6 +962,11 @@ RESPONSIVE
     font-size: 2.5rem;
 }
 
+.nav-logo a img{
+    height: 8rem;
+
+}
+
 /*----------------------------*\
 	archive
 \*----------------------------*/
