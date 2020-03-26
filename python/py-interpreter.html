@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Python Interpreter Setup</title>
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <!-- Nav -->
+        <div id="nav">
+            <!-- Main Nav -->
+            <div id="nav-fix">
+                <div class="container">
+                    <!-- logo -->
+                    <div class="nav-logo">
+                        <!-- <a href="index.html" class="logo" id='logo-img'><span>./explorechoice</span><span id="head-code"
+                                style="color: #861657">.org</span>
+                        </a> -->
+                        <a class="img-fluid img-responsive" href="../index.html" class="logo"><img class="img-fluid"
+                                src="../img/logo.png" alt=""></a>
+                    </div>
+                    <!-- /logo -->
+
+                    <!-- nav -->
+                    <ul class="nav-menu nav navbar-nav">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../miscellaneous/updates.html">Updates</a></li>
+
+                    </ul>
+                    <!-- /nav -->
+
+                    <!-- search & aside toggle -->
+                    <div class="nav-btns">
+                        <button class="aside-btn"><i class="fa fa-bars"></i></button>
+                        <!-- <button class="search-btn"><i class="fa fa-search"></i></button>
+								<div class="search-form">
+									<input class="search-input" type="text" name="search" placeholder="Enter Your Search ...">
+									<button class="search-close"><i class="fa fa-times"></i></button>
+								</div> -->
+                    </div>
+                    <!-- /search & aside toggle -->
+                </div>
+            </div>
+            <!-- /Main Nav -->
+
+            <!-- Aside Nav -->
+            <div id="nav-aside">
+                <!-- nav -->
+                <div class="section-row">
+                    <ul class="nav-aside-menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../miscellaneous/updates.html">Updates</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- widget posts -->
+                <div class="section-row">
+                    <h3>Recent Posts</h3>
+                    <div class="post post-widget">
+                        <a class="post-img" href="./miscellaneous/gitgithub.html"><img src="../img/widget-2.jpg"
+                                alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="./miscellaneous/gitgithub.html">How to set up Git & Git on
+                                    your system and
+                                    work with the same?</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="post post-widget">
+                        <a class="post-img" href="./python/py-setup.html"><img src="../img/widget-3.jpg" alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="./python/py-setup.html">Let's get started with setting up
+                                    Python 3.x on our
+                                    system</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="post post-widget">
+                        <a class="post-img" href="./selenium/pyse-script.html"><img src="../img/widget-4.jpg"
+                                alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="./selenium/pyse-script.html">Let's get started writing our
+                                    very first
+                                    automation script using Python & Selenium</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /widget posts -->
+                <!-- social links -->
+                <div class="section-row">
+                    <h3>Follow us</h3>
+                    <ul class="nav-aside-social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /social links -->
+                <!-- /nav -->
+
+                <!-- aside nav close -->
+                <button class="nav-aside-close"><i class="fa fa-times"></i></button>
+                <!-- /aside nav close -->
+            </div>
+            <!-- Aside Nav -->
+        </div>
+        <!-- /Nav -->
+
+        <!-- Page Header -->
+        <div id="post-header" class="page-header">
+            <!-- <div class="background-img" style="background-image: url('../img/post-page.jpg');"></div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="post-meta">
+                            <a class="post-category cat-2" href="category.html">Python</a>
+                            <span class="post-date">February 27, 2019</span>
+                        </div>
+                        <h1>Let's explore how to setup our own Python interpreter in Pycharm & VS Code</h1>
+                        <p class="author">By Rajeshwar Sharma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Page Header -->
+    </header>
+    <!-- /Header -->
+
+    <!-- section -->
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- Post content -->
+                <div class="col-md-8">
+                    <div class="section-row sticky-container">
+                        <div class="main-post">
+                            <p>When there is a question of productivity and efficiency while programming, one always go for one of the Integrated
+                            Development Environment (IDE) or Text editors. Now, the most challenging part is to set up our own development
+                            environment within IDE or Text editors. So, in this article, we will be exploring how to set up a Python environment
+                            within IDE & Text editor.</p>
+                            <p>There are various IDEs and Text editors available in the market for various programming languages. To know more
+                            about some of the most popular and commonly used IDEs & Text editors among developers community, please refer our post</p>
+                            <p><a class="content-link" style="font-style: italic;" href="../miscellaneous/texteditor-ide.html">Let's explore the most popular & commonly used IDEs & Text editors for coding</a></p>
+                            <p>Here, we are not going to cover all of them but I would like to focus mostly two of them which are having great demand
+                            when it comes to Python development.</p>
+                            <blockquote class="blockquote">
+                                <p>Pycharm (IDE)</p>
+                                <p>VS Code (Text Editor)</p>
+                            </blockquote>
+                            <figure class="figure-img">
+                                <img class="img-responsive" src="../img/post-4.jpg" alt="">
+                                <!-- <figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption> -->
+                            </figure>
+                            
+                            <h3 class="text-info">Setting up a Python environment in Pycharm IDE</h3>
+                            <p>Before starting make sure you have Python installed on your system. If not, please refer our article to set up Python at:
+                                <a class="content-link" href="../python/py-setup.html">Python installation & setup on Windows/Mac/Linux</a>
+                            </p>
+                            <p>Secondly, you have to make sure the Pycharm Community version is installed on your system. If not, please refer our
+                            article on how to download Pycharm at:
+                                <a class="content-link" href="../python/pycharm-setup.html">Let's explore how to set up Pycharm on Mac/Windows/Linux</a>
+                            </p>
+
+                            <ul style="list-style-type: decimal; color:aliceblue">
+                                <li>Launch Pycharm application and create a new project by clicking on <br><code>+Create new project</code></li>
+                                <img class="content-img" src="../img/createnewproject.png" alt="">
+                                <li>Set the project name and click on the arrow button <code> > </code> to expand the virtual environment setting.</li>
+                                <img class="content-img" src="../img/projectname.png" alt="">
+                                <li>If you notice, you can see it is picking by default the system python version and creating a virtual environment for our
+                                project</li>
+                                <img class="content-img" src="../img/creatingvenv.png" alt="">
+                                <li>Click on the <code> OK </code> button and wait for a while till the time the project set up is done.</li>
+                                <li>On the left panel of the project explorer window, you can find the name of our project - <code>MyNewProject</code></li>
+                                <img class="content-img" src="../img/newprojectleftpanel.png" alt="">
+                                <li>Now to set the new python environment for this project, go to <code>Preferences</code></li>
+                                <img class="content-img" src="../img/preferences.png" alt="">
+                                <li>Select <code>Python Interpreter</code> under <code>Python: MyNewProject</code></li>
+                                <li>On the right panel, you will see a new window with the current Python environment of 2.7</li>
+                                <img class="content-img" src="../img/defaultenv.png" alt="">
+                                <li>Click on the up-down arrow button and click <code>Show All</code></li>
+                                <li>A new window will open and you will find all the Python environment that you would have created on your system or may be
+                                installed on your system.</li>
+                                <img class="content-img" src="../img/selectvenvfromoptions.png" alt="">
+                                <li>If you do not find any other Python environment than default one then click on <code> + </code> icon at the bottom left</li>
+                                <li>A new dialog box will open, just click on the <code>Existing environment</code> and click on box with dot <code>...</code> </li>
+                                <img class="content-img" src="../img/existingenv.png" alt="">
+                                <li>Now select the folder of your virtual environment from your local system and navigate to the python3 file within bin
+                                folder and click the <code> OK</code> button</li>
+                                <img class="content-img" src="../img/selectvenv.png" alt="">
+                                <li>Select the recently added Python environment from options and click <code>OK</code></li>
+                                <img class="content-img" src="../img/selectenv.png" alt="">
+                                <li>Click on <code>Apply</code> and then <code>OK</code> button</li>
+                                <img class="content-img" src="../img/clickapply.png" alt="">
+                                <li>Now go to project explorer panel on left and expand <code>External Libraries</code> and you will see our new Python version that we just set</li>
+                                <img class="content-img" src="../img/newpythoninterpreter.png" alt="">
+
+                            </ul>
+
+                            <br>
+                            <h3 class="text-info">Setting up a Python environment in VS Code</h3>
+                            <p>Before starting make sure you have VS Code installed on your system. If not, please refer our article to set up Python
+                                at:
+                                <a class="content-link" href="../miscellaneous/texteditors-setup.html">Text Editors installation & setup on Windows/Mac/Linux</a>
+                            </p>
+                            
+                            <ul style="list-style-type: decimal; color:aliceblue">
+                                <li>Launch VS Code application and open your Python project in it</li>
+                                <li>Click four square on the left panel of VS Code and install <code> Python</code> plugin</li>
+                                <img class="content-img" src="../img/foursquare.png" alt="">
+                                <img class="content-img" src="../img/searchpython.png" alt="">
+                                <li>Press <code>Ctrl+Shift+P</code> (for windows) & <code>Cmd+Shift+P</code> (for mac) and <br>
+                                    type <code>Python Interpreter</code> and click on <code>Select Interpreter</code></li>
+                                <img class="content-img" src="../img/pythoninterpreter.png" alt="">
+                                <li>From the list of Python Interpreter options, select one of the them based on your project</li>
+                                <img class="content-img" src="../img/selectpythoninterpreter.png" alt="">
+                                <li>After slecting one of the interpreter, you will find a new folder with name <code>.vscode</code> get created on left panel</li>
+                                <li>Open the <code>settings.json</code> file from .vscode folder and you will find the recently selected Python interpreter</li>
+                                <img class="content-img" src="../img/settingfile.png" alt="">
+                                <li>From next time onwards, for the same project if you want to change Python interpreter simply change the path in <code>settings.json</code> file</li>
+                                <li>If everything went well then you should see recently selected Python interpreter at the bottom left corner of VS Code</li>
+                                <img class="content-img" src="../img/afterpythonselect.png" alt="">
+                            </ul>
+
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /Post content -->
+
+                <!-- aside -->
+                <div class="col-md-4">
+
+                    <!-- post widget -->
+                    <div class="aside-widget">
+                        <div class="section-title">
+                            <h2>Must Read</h2>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-1.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore Python data structures &
+                                        its amazing features.</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-2.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore Selenium wait using Python
+                                        code</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-3.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore mouse & keyboard
+                                        operations using Selenium & Python</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-4.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore handling of multiple
+                                        browser windows & tabs using Selenium & Python</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /post widget -->
+                    <!-- catagories -->
+                    <div class="aside-widget">
+                        <div class="section-title">
+                            <h2>Catagories</h2>
+                        </div>
+                        <div class="category-widget">
+                            <ul>
+                                <li><a href="#" class="cat-1">Python<span>5</span></a></li>
+                                <li><a href="#" class="cat-2">Selenium<span>4</span></a></li>
+                                <li><a href="#" class="cat-4">Selenium/Python<span>6</span></a></li>
+                                <li><a href="#" class="cat-3">Github<span>2</span></a></li>
+                                <li><a href="#" class="cat-3">Java<span>3</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /catagories -->
+                </div>
+                <!-- /aside -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /section -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- container -->
+        <div class="text-center container">
+            <p>YEEEE !!! 🤗, we have successfully explored how to set up Python interpreter in Pycharm & VS Code 🤗</p>
+            <p>Hope you enjoyed and please stay tuned with us for more article like this 🤗</p>
+            <br>
+            <!-- row -->
+            <h3 class="footer-title">Having any query. Please send us..</h3>
+            <div class="footer-newsletter">
+                <form>
+                    <button type="submit" class="bg-dark px-5 btn btn-success email-us">
+                        <a class="text-white" style="text-decoration: none;"
+                            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=lets.code@yahoo.com"
+                            target="_blank">lets.code@yahoo.com</a>
+                    </button>
+                    <!-- <input class="input" type="email" name="newsletter" placeholder="Enter your email">
+                    <button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button> -->
+                </form>
+            </div>
+            <ul class="footer-social">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+            <br>
+
+            <ul>
+                <li class="footer-logo">
+                    <p id='logo-img'><span>&lt;explore</span><span>/</span><span id="head-code"
+                            style="color: #861657">choice&gt;</span>
+                    </p>
+                </li>
+                <li>Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+                        href="https://www.explorechoice.org" target="_blank">explorechoice.org</a>
+                </li>
+            </ul>
+
+            <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <!-- Copyright ©<script>document.write(new Date().getFullYear());</script>All rights reserved | -->
+                This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+
+
+        </div>
+        <!-- /container -->
+    </footer>
+    <!-- /Footer -->
+
+    <!-- jQuery Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

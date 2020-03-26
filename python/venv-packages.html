@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Venv package install</title>
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <!-- Nav -->
+        <div id="nav">
+            <!-- Main Nav -->
+            <div id="nav-fix">
+                <div class="container">
+                    <!-- logo -->
+                    <div class="nav-logo">
+                        <!-- <a href="index.html" class="logo" id='logo-img'><span>./explorechoice</span><span id="head-code"
+                                style="color: #861657">.org</span>
+                        </a> -->
+                        <a class="img-fluid img-responsive" href="../index.html" class="logo"><img class="img-fluid"
+                                src="../img/logo.png" alt=""></a>
+                    </div>
+                    <!-- /logo -->
+
+                    <!-- nav -->
+                    <ul class="nav-menu nav navbar-nav">
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../miscellaneous/updates.html">Updates</a></li>
+
+                    </ul>
+                    <!-- /nav -->
+
+                    <!-- search & aside toggle -->
+                    <div class="nav-btns">
+                        <button class="aside-btn"><i class="fa fa-bars"></i></button>
+                        <!-- <button class="search-btn"><i class="fa fa-search"></i></button>
+								<div class="search-form">
+									<input class="search-input" type="text" name="search" placeholder="Enter Your Search ...">
+									<button class="search-close"><i class="fa fa-times"></i></button>
+								</div> -->
+                    </div>
+                    <!-- /search & aside toggle -->
+                </div>
+            </div>
+            <!-- /Main Nav -->
+
+            <!-- Aside Nav -->
+            <div id="nav-aside">
+                <!-- nav -->
+                <div class="section-row">
+                    <ul class="nav-aside-menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../miscellaneous/updates.html">Updates</a></li>
+                    </ul>
+                </div>
+
+
+                <!-- widget posts -->
+                <div class="section-row">
+                    <h3>Recent Posts</h3>
+                    <div class="post post-widget">
+                        <a class="post-img" href="./miscellaneous/gitgithub.html"><img src="../img/widget-2.jpg"
+                                alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="./miscellaneous/gitgithub.html">How to set up Git & Git on
+                                    your system and
+                                    work with the same?</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="post post-widget">
+                        <a class="post-img" href="./python/py-setup.html"><img src="../img/widget-3.jpg" alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="./python/py-setup.html">Let's get started with setting up
+                                    Python 3.x on our
+                                    system</a></h3>
+                        </div>
+                    </div>
+
+                    <div class="post post-widget">
+                        <a class="post-img" href="./selenium/pyse-script.html"><img src="../img/widget-4.jpg"
+                                alt=""></a>
+                        <div class="post-body">
+                            <h3 class="post-title"><a href="./selenium/pyse-script.html">Let's get started writing our
+                                    very first
+                                    automation script using Python & Selenium</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- /widget posts -->
+                <!-- social links -->
+                <div class="section-row">
+                    <h3>Follow us</h3>
+                    <ul class="nav-aside-social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                    </ul>
+                </div>
+                <!-- /social links -->
+                <!-- /nav -->
+
+                <!-- aside nav close -->
+                <button class="nav-aside-close"><i class="fa fa-times"></i></button>
+                <!-- /aside nav close -->
+            </div>
+            <!-- Aside Nav -->
+        </div>
+        <!-- /Nav -->
+
+        <!-- Page Header -->
+        <div id="post-header" class="page-header">
+            <!-- <div class="background-img" style="background-image: url('../img/post-page.jpg');"></div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="post-meta">
+                            <a class="post-category cat-2" href="category.html">Python</a>
+                            <span class="post-date">February 27, 2019</span>
+                        </div>
+                        <h1>Let's explore how to install different dependencies in different Python virtual env</h1>
+                        <p class="author">By Rajeshwar Sharma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Page Header -->
+    </header>
+    <!-- /Header -->
+
+    <!-- section -->
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- Post content -->
+                <div class="col-md-8">
+                    <div class="section-row sticky-container">
+                        <div class="main-post">
+                            <p>As we have already explored how to set up our Python virtual environment. Now, its time
+                                to install the packages that
+                                need to be part of the virtual environment. Here, we will be exploring different ways to
+                                install packages in python
+                                virtual environment</p>
+                            <p>So, let get dive into and explore how to install packages in a virtual environment.</p>
+
+                            <figure class="figure-img">
+                                <img class="img-responsive" src="../img/post-4.jpg" alt="">
+                                <!-- <figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption> -->
+                            </figure>
+                            <p>Here, I would like to frame a hypothetical situation where we have to work on two
+                                different projects.</p>
+                            <p>Let's name our first project as <code>A (Data Science)</code> and the second project as <code>B (Web
+                            Development)</code>.Here, both A & B
+                                project
+                                is completely different and both needed different python packages to start with.</p>
+
+                            <p>Considering project A involves data manipulation coming from different sources such as
+                                flat files & databases. On the
+                                other side, project B involves backend development for one of the websites. Here, the
+                                challenging part is both projects
+                                need different packages and we have already discussed in one of our previous posts that it
+                                always good to have a virtual
+                                environment in such cases.</p>
+
+                                <p>So let's create a virtual environment first and install the necessary dependencies for both the projects - <code>A & B</code></p>
+                            <h3 class="text-info">Creation of a virtual environment</h3>
+                            <p>Since we have already covered this part in one of our posts. I would highly recommend you to please refer the same. Here
+                            is the link down below:</p>
+                            <blockquote>
+                                <p><a class="text-warning" href="python/py-venv.html">Let's explore how to create & work with Python virtual environment</a></p>
+                            </blockquote>
+                            
+                            <p>Let's consider we have named project A & B virtual environment as <code>a-venv</code> and <code>b-venv</code> respectively.</p>
+                            
+                            <h3 class="text-info">Installing dependencies for project A & B</h3>
+                            <p>As we already know, whenever we start with any project there will be multiple dependencies/packages that we need to
+                            install to get started. Similarly in our case, there are some basic & mandatory packages that need to be
+                            installed</p>
+                            <ul style="list-style-type: decimal; color:aliceblue">
+                                <li>For project A</li>
+                                <blockquote>
+                                    <code>numpy</code>
+                                    <code>pandas</code>
+                                    <code>jupyter</code>
+                                    <footer class="blockquote-footer"><cite title="Source Title">These are just mandatory packages that need to be installed but yes there will be more</cite></footer>
+                                </blockquote>
+
+                                <li>For project B</li>
+                                <blockquote>
+                                    <code>django</code>
+                                    <code>psycopg2-binary</code>
+                                    <code>django-storages</code>
+                                    <code>Pillow</code>
+                                    <footer class="blockquote-footer"><cite title="Source Title">These are just mandatory packages that need to be
+                                            installed but yes there will be more</cite></footer>
+                                </blockquote>
+                                
+                            </ul>
+
+                            <p>So let's go and start installing packages for project A & B </p>
+                            <p>There are multiple ways to install packages in Python and the most commonly used is - <code>pip install</code></p>
+                            <ul style="list-style-type: decimal; color:aliceblue">
+                                <li>For project A</li>
+                                <p>Open terminal/CMD and activate the virtual environment a-venv and execute the below commands</p>
+                                <blockquote>
+                                    <p><code>pip install numpy</code></p>
+                                    <p><code>pip install pandas</code></p>
+                                    <p><code>pip install jupyter</code></p>
+                        
+                                </blockquote>
+                            
+                                <li>For project B</li>
+                                <p>Open terminal/CMD and activate the virtual environment b-venv and execute the below commands</p>
+                                <blockquote>
+                                    <p><code>pip install django</code></p>
+                                    <p><code>pip install psycopg2-binary</code></p>
+                                    <p><code>pip install django-storages</code></p>
+                                    <p><code>pip install Pillow</code></p>
+                                
+                                </blockquote>
+                            </ul>
+
+                            <p>But if you observe the way we are installing the packages doesn't seem efficient since if we have multiple packages then
+                            it will be a tedious job. So to overcome this, <code>pip</code> has another feature where we can specify all the packages in one
+                            statement/command as follows.</p>
+
+                            <blockquote>
+                                <p>For project A - <code>pip install numpy pandas jupyter</code></p>
+                                <p>For project B - <code>pip install django psycopg2-binary django-storages Pillow</code></p>
+                            </blockquote>
+
+
+                            <p>But again it doesn't seem much useful when we have more packages since the command becomes very clumsy and whenever we
+                            need to deploy our applications or code in a different environment we need to install the dependent packages and typing
+                            every time the same command with multiple packages will be a tedious job and there will be a chance of missing some of
+                            the packages.</p>
+
+                            <p>So to make our job easy pip supports installing packages from .txt files which makes package installation on
+                            different servers and in a different environment very handy and smooth.</p>
+
+                            <h3 class="text-info">Installing dependencies for project A & B using requirement.txt</h3>
+                            <ul style="list-style-type: decimal; color:aliceblue">
+                                <li>Create a simple text file with name <code>requirement.txt</code> and paste all the packages with respective versions in it as
+                                follows:</li>
+                                <blockquote>
+                                    <p class="mb-0">For project A(requirement.txt)</p>
+                                    <img class="img-responsive img-fluid mb-2" style="border-radius: 3px;" src="../img/venva.png" alt="">
+                                    <br>
+                                    <p class="mb-0">For project B(requirement.txt)</p>
+                                    <img class="img-responsive img-fluid mb-2" style="border-radius: 3px;" src="../img/venvb.png" alt="">
+                                </blockquote>
+                                <li>Open the terminal/CMD and activate the virtual environment (a-venv or b-venv)</li>
+                                <li>Once you are in a virtual environment (a-venv or b-venv), navigate to requirement.txt file & execute below command:</li>
+                                <blockquote>
+                                    <code>pip install -r requirement.txt</code>
+                                    <br>
+                                    <footer class="blockquote-footer"><cite title="Source Title">Make sure you pick the right requirement.txt file for each of the project.</cite></footer>
+                                </blockquote>
+                            </ul>
+
+                            <p>For more insights about pip install, please refer this wonderful article:
+                            <a class="text-warning" style="font-style: italic;" href="https://pip.pypa.io/en/stable/reference/pip_install/#argument-handling">https://pip.pypa.io/en/stable/reference/pip_install/#argument-handling</a></p>
+                            <br>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- /Post content -->
+
+                <!-- aside -->
+                <div class="col-md-4">
+
+                    <!-- post widget -->
+                    <div class="aside-widget">
+                        <div class="section-title">
+                            <h2>Must Read</h2>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-1.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore Python data structures &
+                                        its amazing features.</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-2.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore Selenium wait using Python
+                                        code</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-3.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore mouse & keyboard
+                                        operations using Selenium & Python</a></h3>
+                            </div>
+                        </div>
+
+                        <div class="post post-widget">
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-4.jpg" alt=""></a>
+                            <div class="post-body">
+                                <h3 class="post-title"><a href="blog-post.html">Let's explore handling of multiple
+                                        browser windows & tabs using Selenium & Python</a></h3>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /post widget -->
+                    <!-- catagories -->
+                    <div class="aside-widget">
+                        <div class="section-title">
+                            <h2>Catagories</h2>
+                        </div>
+                        <div class="category-widget">
+                            <ul>
+                                <li><a href="#" class="cat-1">Python<span>5</span></a></li>
+                                <li><a href="#" class="cat-2">Selenium<span>4</span></a></li>
+                                <li><a href="#" class="cat-4">Selenium/Python<span>6</span></a></li>
+                                <li><a href="#" class="cat-3">Github<span>2</span></a></li>
+                                <li><a href="#" class="cat-3">Java<span>3</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /catagories -->
+                </div>
+                <!-- /aside -->
+            </div>
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /section -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <!-- container -->
+        <div class="text-center container">
+            <p>YEEEE !!! 🤗, we have successfully explored installing packages in Python virtual environment. 🤗</p>
+            <p>Hope you enjoyed and please stay tuned with us for more article like this 🤗</p>
+            <br>
+            <!-- row -->
+            <h3 class="footer-title">Having any query. Please send us..</h3>
+            <div class="footer-newsletter">
+                <form>
+                    <button type="submit" class="bg-dark px-5 btn btn-success email-us">
+                        <a class="text-white" style="text-decoration: none;"
+                            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=lets.code@yahoo.com"
+                            target="_blank">lets.code@yahoo.com</a>
+                    </button>
+                    <!-- <input class="input" type="email" name="newsletter" placeholder="Enter your email">
+                    <button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button> -->
+                </form>
+            </div>
+            <ul class="footer-social">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+            <br>
+
+            <ul>
+                <li class="footer-logo">
+                    <p id='logo-img'><span>&lt;explore</span><span>/</span><span id="head-code"
+                            style="color: #861657">choice&gt;</span>
+                    </p>
+                </li>
+                <li>Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | <a
+                        href="https://www.explorechoice.org" target="_blank">explorechoice.org</a>
+                </li>
+            </ul>
+
+            <p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <!-- Copyright ©<script>document.write(new Date().getFullYear());</script>All rights reserved | -->
+                This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a
+                    href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+
+
+        </div>
+        <!-- /container -->
+    </footer>
+    <!-- /Footer -->
+
+    <!-- jQuery Plugins -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

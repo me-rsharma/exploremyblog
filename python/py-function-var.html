@@ -7,15 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>Selenium Actions</title>
+    <title>Python Variables & Functions</title>
     <!-- Bootstrap -->
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
 
     <!-- Font Awesome Icon -->
-    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
 
     <!-- Custom stlylesheet -->
-    <link type="text/css" rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="../css/style.css" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,21 +33,21 @@
         <!-- Nav -->
         <div id="nav">
             <!-- Main Nav -->
-            <div id="nav-fixed">
+            <div id="nav-fix">
                 <div class="container">
                     <!-- logo -->
                     <div class="nav-logo">
-                        <a href="index.html" class="logo" id='logo-img'><span>./explorechoice</span><span id="head-code"
+                        <!-- <a href="index.html" class="logo" id='logo-img'><span>./explorechoice</span><span id="head-code"
                                 style="color: #861657">.org</span>
-                        </a>
-                        <!-- <a href="index.html" class="logo"><img src="./img/logo.png" alt=""></a> -->
+                        </a> -->
+                        <a class="img-responsive img-fluid" href="../index.html" class="logo"><img class="img-fluid" src="../img/logo.png" alt=""></a>
                     </div>
                     <!-- /logo -->
 
                     <!-- nav -->
                     <ul class="nav-menu nav navbar-nav">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="updates.html">Updates</a></li>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../miscellaneous/updates.html">Updates</a></li>
 
                     </ul>
                     <!-- /nav -->
@@ -71,43 +71,40 @@
                 <!-- nav -->
                 <div class="section-row">
                     <ul class="nav-aside-menu">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="updates.html">Updates</a></li>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../miscellaneous/updates.html">Updates</a></li>
                     </ul>
                 </div>
 
 
-                <!-- widget posts -->
-                <div class="section-row">
-                    <h3>Recent Posts</h3>
-                    <div class="post post-widget">
-                        <a class="post-img" href="gitgithub.html"><img src="./img/widget-2.jpg" alt=""></a>
-                        <div class="post-body">
-                            <h3 class="post-title"><a href="gitgithub.html">How to set up Git & Git on your system and
-                                    work with the
-                                    same?</a></h3>
-                        </div>
-                    </div>
-
-                    <div class="post post-widget">
-                        <a class="post-img" href="py-setup.html"><img src="./img/widget-3.jpg" alt=""></a>
-                        <div class="post-body">
-                            <h3 class="post-title"><a href="py-setup.html">Let's get started with setting up Python 3.x
-                                    on our
-                                    system</a></h3>
-                        </div>
-                    </div>
-
-                    <div class="post post-widget">
-                        <a class="post-img" href="se-setup.html"><img src="./img/widget-4.jpg" alt=""></a>
-                        <div class="post-body">
-                            <h3 class="post-title"><a href="se-setup.html">Let's get started writing our very first
-                                    automation script
-                                    using Python & Selenium</a></h3>
-                        </div>
+            <!-- widget posts -->
+            <div class="section-row">
+                <h3>Recent Posts</h3>
+                <div class="post post-widget">
+                    <a class="post-img" href="./miscellaneous/gitgithub.html"><img src="../img/widget-2.jpg" alt=""></a>
+                    <div class="post-body">
+                        <h3 class="post-title"><a href="./miscellaneous/gitgithub.html">How to set up Git & Git on your system and
+                                work with the same?</a></h3>
                     </div>
                 </div>
-                <!-- /widget posts -->
+            
+                <div class="post post-widget">
+                    <a class="post-img" href="./python/py-setup.html"><img src="../img/widget-3.jpg" alt=""></a>
+                    <div class="post-body">
+                        <h3 class="post-title"><a href="./python/py-setup.html">Let's get started with setting up Python 3.x on our
+                                system</a></h3>
+                    </div>
+                </div>
+            
+                <div class="post post-widget">
+                    <a class="post-img" href="./selenium/pyse-script.html"><img src="../img/widget-4.jpg" alt=""></a>
+                    <div class="post-body">
+                        <h3 class="post-title"><a href="./selenium/pyse-script.html">Let's get started writing our very first
+                                automation script using Python & Selenium</a></h3>
+                    </div>
+                </div>
+            </div>
+            <!-- /widget posts -->
                 <!-- social links -->
                 <div class="section-row">
                     <h3>Follow us</h3>
@@ -131,7 +128,7 @@
 
         <!-- Page Header -->
         <div id="post-header" class="page-header">
-            <!-- <div class="background-img" style="background-image: url('./img/post-page.jpg');"></div> -->
+            <!-- <div class="background-img" style="background-image: url('../img/post-page.jpg');"></div> -->
             <div class="container">
                 <div class="row">
                     <div class="col-md-10">
@@ -159,8 +156,7 @@
                 <div class="col-md-8">
                     <div class="section-row sticky-container">
                         <div class="main-post">
-                            <p>Any programming language across IT industries is designed to design a code that helps to
-                                perform a set of tasks or
+                            <p>Any programming language across IT industries is designed to design a code that helps to perform a set of tasks or
                                 maybe a specific task on specific
                                 data set of data.</p>
                             <p>Now, the most important thing is how we make these data available to our program at the
@@ -168,7 +164,7 @@
                                 operations on it.
                                 And the answer to this is <strong><em>"Variable"</em></strong></p>
                             <figure class="figure-img">
-                                <img class="img-responsive" src="./img/post-4.jpg" alt="">
+                                <img class="img-responsive" src="../img/post-4.jpg" alt="">
                                 <figcaption>So Lorem Ipsum is bad (not necessarily)</figcaption>
                             </figure>
                             <h3 class="text-info">What is the Variable?</h3>
@@ -186,79 +182,66 @@
                                 data type. We simply write the
                                 variable name and value assigned to it.</p>
 
-                            <blockquote>
-                                <code>name = 'I m variable</code>
-                                <code>id = 124</code>
-                            </blockquote>
+                                <blockquote>
+                                    <code>name = 'I m variable</code>
+                                    <code>id = 124</code>
+                                </blockquote>
 
-                            <p>Once we have defined the variable, its time to see how we can operate on these variables.
-                                And this is where function
-                                comes into the picture.</p>
+<p>Once we have defined the variable, its time to see how we can operate on these variables. And this is where function
+comes into the picture.</p>
                             <h3 class="text-info">What is the Function?</h3>
-                            <p>In laymen terms, functions are nothing but a verb that perform some action on
-                                data/variable which is a noun
+                            <p>In laymen terms, functions are nothing but a verb that perform some action on data/variable which is a noun
                             </p>
                             <p>Technically, there are multiple definitions for the functions. Some of them are:</p>
                             <blockquote>
-                                <p>A function is a set of instruction that helps to perform some operation on the
-                                    variable</p>
+                                <p>A function is a set of instruction that helps to perform some operation on the variable</p>
                                 <p>A function is a block of code that performs a specific operation on a variable</p>
                             </blockquote>
 
                             <h3 class="text-info">How to define Function?</h3>
-                            <p>Defining function in Python is pretty easy and straight forward unlike other programming
-                                languages.</p>
-
-                            <script
-                                src="https://gist.github.com/me-rsharma/de90defbda17fbb2c978a87ed3b1530a.js"></script>
-
-                            <p>Based on function parameters and return type there are different ways to define functions
-                            </p>
-                            <ul style="list-style-type: decimal; color:aliceblue">
-                                <li>Function without parameter & return type
-                                    <script
-                                        src="https://gist.github.com/me-rsharma/d95c17fe2fbe6dbfaaa6fc529e5f45f8.js"></script>
-                                </li>
-                                <!-- <blockquote>
+                            <p>Defining function in Python is pretty easy and straight forward unlike other programming languages.</p>
+                        
+                                <script src="https://gist.github.com/me-rsharma/de90defbda17fbb2c978a87ed3b1530a.js"></script>
+                            
+                        <p>Based on function parameters and return type there are different ways to define functions</p>
+                                <ul style="list-style-type: decimal; color:aliceblue">
+                                    <li>Function without parameter & return type
+                                    <script src="https://gist.github.com/me-rsharma/d95c17fe2fbe6dbfaaa6fc529e5f45f8.js"></script>
+                                    </li>
+                                    <!-- <blockquote>
                                         <p><script src="https://gist.github.com/me-rsharma/d95c17fe2fbe6dbfaaa6fc529e5f45f8.js"></script>
                                         </p>
                                     </blockquote> -->
-                                <li>Function without parameter & with return type
-                                    <script
-                                        src="https://gist.github.com/me-rsharma/49f516c0f35c650505f924c76531b922.js"></script>
-                                </li>
-                                <li>Function with parameter & without return type
-                                    <script
-                                        src="https://gist.github.com/me-rsharma/6ca41fcb97c0b1b1bb7935fbc618d326.js"></script>
-                                </li>
-                                <li>Function with parameter & with return type
-                                    <script
-                                        src="https://gist.github.com/me-rsharma/54f12dc19e028bd5015b5e5a976db5f1.js"></script>
-                                </li>
-                            </ul>
+                                    <li>Function without parameter & with return type
+                                        <script src="https://gist.github.com/me-rsharma/49f516c0f35c650505f924c76531b922.js"></script>
+                                    </li>
+                                    <li>Function with parameter & without return type
+                                        <script src="https://gist.github.com/me-rsharma/6ca41fcb97c0b1b1bb7935fbc618d326.js"></script>
+                                    </li>
+                                    <li>Function with parameter & with return type
+                                        <script src="https://gist.github.com/me-rsharma/54f12dc19e028bd5015b5e5a976db5f1.js"></script>
+                                    </li>
+                                </ul>
 
 
                             <h3 class="text-info">How to execute function in Python?</h3>
-                            <p>Executing pyton function is pretty easy. We have to simply call the name of the function
-                                with arguments if needed</p>
+                            <p>Executing pyton function is pretty easy. We have to simply call the name of the function with arguments if needed</p>
                             <p>
                                 <ul style="list-style-type: decimal; color:aliceblue">
                                     <li>Calling function w/o parameter
-                                        <script
-                                            src="https://gist.github.com/me-rsharma/99559dc786ba3e12b2a4245deb33ad9d.js"></script>
+                                        <script src="https://gist.github.com/me-rsharma/99559dc786ba3e12b2a4245deb33ad9d.js"></script>
                                     </li>
 
                                     <li>Calling function with parameter
-                                        <script
-                                            src="https://gist.github.com/me-rsharma/2adca4003b5bc8d194d999b9f48ac69c.js"></script>
+                                        <script src="https://gist.github.com/me-rsharma/2adca4003b5bc8d194d999b9f48ac69c.js"></script>
                                     </li>
-
+                                    
                                 </ul>
 
                             </p>
 
                             <br>
-
+                        
                         </div>
                     </div>
                 </div>
@@ -274,7 +257,7 @@
                         </div>
 
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="./img/widget-1.jpg" alt=""></a>
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-1.jpg" alt=""></a>
                             <div class="post-body">
                                 <h3 class="post-title"><a href="blog-post.html">Let's explore Python data structures &
                                         its amazing features.</a></h3>
@@ -282,7 +265,7 @@
                         </div>
 
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="./img/widget-2.jpg" alt=""></a>
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-2.jpg" alt=""></a>
                             <div class="post-body">
                                 <h3 class="post-title"><a href="blog-post.html">Let's explore Selenium wait using Python
                                         code</a></h3>
@@ -290,7 +273,7 @@
                         </div>
 
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="./img/widget-3.jpg" alt=""></a>
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-3.jpg" alt=""></a>
                             <div class="post-body">
                                 <h3 class="post-title"><a href="blog-post.html">Let's explore mouse & keyboard
                                         operations using Selenium & Python</a></h3>
@@ -298,7 +281,7 @@
                         </div>
 
                         <div class="post post-widget">
-                            <a class="post-img" href="blog-post.html"><img src="./img/widget-4.jpg" alt=""></a>
+                            <a class="post-img" href="blog-post.html"><img src="../img/widget-4.jpg" alt=""></a>
                             <div class="post-body">
                                 <h3 class="post-title"><a href="blog-post.html">Let's explore handling of multiple
                                         browser windows & tabs using Selenium & Python</a></h3>
@@ -331,7 +314,7 @@
     </div>
     <!-- /section -->
 
-
+    
 
     <!-- Footer -->
     <footer id="footer">
@@ -344,8 +327,13 @@
             <h3 class="footer-title">Having any query. Please send us..</h3>
             <div class="footer-newsletter">
                 <form>
-                    <input class="input" type="email" name="newsletter" placeholder="Enter your email">
-                    <button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button>
+                    <button type="submit" class="bg-dark px-5 btn btn-success email-us">
+                        <a class="text-white" style="text-decoration: none;"
+                            href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=lets.code@yahoo.com"
+                            target="_blank">lets.code@yahoo.com</a>
+                    </button>
+                    <!-- <input class="input" type="email" name="newsletter" placeholder="Enter your email">
+                    <button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button> -->
                 </form>
             </div>
             <ul class="footer-social">
