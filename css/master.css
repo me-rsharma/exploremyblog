@@ -22,6 +22,11 @@
   font-family: 'Ayuthaya';
 }
 
+@font-face{
+  src:url(../fonts/YayBabe.ttf) format("truetype");
+  /* src:url(../fonts/JetBrainsMono-Regular.ttf); */
+  font-family: 'Yaybabe';
+}
 
 
 body {
