@@ -219,6 +219,7 @@ RESPONSIVE
 	NAVIGATION
 ===========================================================*/
  #nav {
+     padding-top: 5px;
      height: 70px;
 }
  #nav:after {
