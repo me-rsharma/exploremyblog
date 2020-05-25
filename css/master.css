@@ -46,7 +46,7 @@ body {
   font-family: 'Inconsolata';
   background-color: #292F36;
   font-weight: 200;
-  font-size: 0.9rem;
+  font-size: 1.0rem;
 }
 
 .seperate{
@@ -153,17 +153,17 @@ blockquote{
 
 }
 
-img {
+.banner-img {
   border-radius: 4px;
   margin-top: 4px;
   margin-bottom: 4px;
-  height: 2.5rem;
+  height: 100%;
   padding: 2px;
 }
 
 blockquote p{
   color: rgb(248, 239, 239);
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-style: italic;
   
 }
