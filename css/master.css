@@ -28,6 +28,12 @@
   font-family: 'Yaybabe';
 }
 
+@font-face{
+  src:url(../fonts/Inconsolata-VariableFont_wdth,wght.ttf) format("truetype");
+  /* src:url(../fonts/JetBrainsMono-Regular.ttf); */
+  font-family: 'Inconsolata';
+}
+
 
 body {
   padding: 0px;
@@ -36,15 +42,17 @@ body {
 
 
 body {
-  font-family: 'Ayuthaya';
+  /* font-family: 'Ayuthaya'; */
+  font-family: 'Inconsolata';
   background-color: #292F36;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 0.9rem;
 }
 
 .seperate{
   border-bottom: 1px dashed #D5DD5D;
-  font-family: 'Ayuthaya';
+  /* font-family: 'Ayuthaya'; */
+  font-family: 'Inconsolata';
 }
 
 
