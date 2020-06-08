@@ -1181,7 +1181,7 @@ pre {
 /*==========
 UPDATES
 ============= */
-#logo-img span {
+/* #logo-img span {
   font-size: 2.5rem;
   color: #D5DD5D;
   font-family: "Ayuthaya";
@@ -1231,9 +1231,9 @@ UPDATES
   border-radius: 2px;
   padding-right: 2px;
   padding-left: 2px;
-}
+} */
 
-.sub-head span {
+/* .sub-head span {
   font-size: 1rem;
   color: #F2E5C9;
   border-bottom: solid 1px #F2E5C9;
@@ -1248,9 +1248,10 @@ UPDATES
 }
 
 .course-details img .responsive{
-  max-height: 100%;
-  width: auto;
-}
+  max-width: 100%;
+  height: auto;
+
+} */
 
 
 /*=========================================================
