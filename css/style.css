@@ -1178,6 +1178,75 @@ pre {
 }
 
 
+/*==========
+UPDATES
+============= */
+#logo-img span {
+  font-size: 2.5rem;
+  color: #D5DD5D;
+  font-family: "Ayuthaya";
+}
+
+#head-code{
+  font-size: 2.5rem;
+  color: #861657;
+  font-weight: bolder;
+}
+
+#logo-text{
+  font-size: 1.5rem;
+}
+
+.topic{
+  border-bottom: solid 2px #D5DD5D;
+  font-style: italic;
+  color: #157A6E;
+}
+
+.topic-details h5{
+  color: grey;
+  font-size: 1.2rem;
+  color: #F9AB55;
+  margin-top: 5px;
+
+}
+
+.head-list ul{
+  display: inline-block;
+  list-style: none;
+}
+
+
+.head-list li{
+  display: inline-block;
+  list-style: none;
+}
+
+.content-section ul{
+  color: grey;
+}
+
+.important-text {
+  background-color: #fff;
+  border-radius: 2px;
+  padding-right: 2px;
+  padding-left: 2px;
+}
+
+.sub-head span {
+  font-size: 1rem;
+  color: #F2E5C9;
+  border-bottom: solid 1px #F2E5C9;
+}
+
+.banner-img {
+  border-radius: 4px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 100%;
+  padding: 2px;
+}
+
 
 /*=========================================================
 	RESPONSIVE
