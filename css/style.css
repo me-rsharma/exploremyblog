@@ -515,6 +515,7 @@ textarea.input {
   font-weight: 700;
   font-size: 20px;
   color: #d5dd5d;
+  text-transform: lowercase;
 }
 .nav-aside-social li {
   display: inline-block;
