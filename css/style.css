@@ -1247,6 +1247,11 @@ UPDATES
   padding: 2px;
 }
 
+.course-details img .responsive{
+  max-width: 100%;
+  height: auto;
+}
+
 
 /*=========================================================
 	RESPONSIVE
